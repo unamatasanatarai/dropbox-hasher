@@ -1,3 +1,10 @@
+1.
+====
+Feel free to set your own pepper
+
+2.
+====
+
 add this to config/app providers (or replace the current HashServiceProvider):
 
 ```
