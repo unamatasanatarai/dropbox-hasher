@@ -31,6 +31,7 @@ class DropboxHash implements HasherContract
     public function check($value, $hashedValue, array $options = [])
     {
         $parts = $this->decode($hashedValue);
+
         return Hash::check(
             $this->prehash($value, $parts['localSalt']),
             $parts['hashed']
