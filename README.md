@@ -1,6 +1,9 @@
 1.
 ====
 Feel free to set your own pepper
+```
+app('hash')->setPepper(16-bytes);
+```
 
 2.
 ====
@@ -29,6 +32,7 @@ Everything else works as it used to.
 @todo:
 ======
 -> needsRehash
+-> automate pepper setting, maybe in the service provider?
 
 
 
