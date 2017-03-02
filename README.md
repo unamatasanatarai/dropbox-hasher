@@ -7,6 +7,8 @@
 ```
 
 
-add this to config/app provicers (or replace the current HashServiceProvider):
+add this to config/app providers (or replace the current HashServiceProvider):
 
-```Unamatasanatarai\Hashing\DropboxHashServiceProvider::class```
+```
+Unamatasanatarai\Hashing\DropboxHashServiceProvider::class
+```
