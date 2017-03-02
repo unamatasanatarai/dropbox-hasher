@@ -1,7 +1,6 @@
 <?php
 namespace Unamatasanatarai\Hashing;
 
-use Hash;
 use Illuminate\Contracts\Hashing\Hasher as HasherContract;
 
 class DropboxHash implements HasherContract
@@ -32,7 +31,7 @@ class DropboxHash implements HasherContract
     {
         $parts = $this->decode($hashedValue);
 
-        return Hash::check(
+        return (new \Illuminate\Hashing\BcryptHasher)->check(
             $this->prehash($value, $parts['localSalt']),
             $parts['hashed']
         );
