@@ -31,8 +31,8 @@ Everything else works as it used to.
 
 @todo:
 ======
--> needsRehash
--> automate pepper setting, maybe in the service provider?
+- needsRehash
+- automate pepper setting, maybe in the service provider?
 
 
 
