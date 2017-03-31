@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Hash me like with dropbox",
     "homepage": "https://github.com/unamatasanatarai/lara-dropbox-hasher",
-    "keywords": ["laravel5","hashing"],
+    "keywords": ["laravel5","hashing","passwords"],
     "license": "MIT",
     "authors": [
         {
