@@ -1,8 +1,8 @@
 {
-    "name": "unamatasanatarai/dropbox-hasher",
+    "name": "unamatasanatarai/lara-dropbox-hasher",
     "type": "library",
     "description": "Hash me like with dropbox",
-    "homepage": "https://github.com/unamatasanatarai/dropbox-hasher",
+    "homepage": "https://github.com/unamatasanatarai/lara-dropbox-hasher",
     "keywords": ["laravel5","hashing"],
     "license": "MIT",
     "authors": [
