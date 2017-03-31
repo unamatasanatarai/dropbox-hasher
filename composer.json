@@ -17,6 +17,5 @@
         "psr-4": {
             "Unamatasanatarai\\Hashing\\": "src/Unamatasanatarai/Hashing"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
